@@ -20,7 +20,8 @@ pygame.display.set_caption("Flappy Bird")
 # Load assets
 bird_img = pygame.image.load("bird.jpg")  # Replace with your bird image file path
 bird_img = pygame.transform.scale(bird_img, (40, 40))
-
+background_img=pygame.image.load("bg1.jpg")
+background_img = pygame.transform.scale(background_img, (SCREEN_WIDTH, SCREEN_HEIGHT))
 pipe_img = pygame.Surface((PIPE_WIDTH, SCREEN_HEIGHT))
 pipe_img.fill((0, 255, 0))
 
@@ -107,6 +108,7 @@ pipes.extend(create_pipe())  # Add initial pipes
 running = True
 while running:
     screen.fill(WHITE)
+    screen.blit(background_img, (0, 0))
 
     # Event handling
     for event in pygame.event.get():
