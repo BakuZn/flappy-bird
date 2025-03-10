@@ -1,0 +1,36 @@
+Flappy Bird Game
+A simple implementation of the popular Flappy Bird game using Pygame.
+
+Overview
+This project provides a basic version of Flappy Bird, where a player controls a bird that must navigate through obstacles (pipes) by jumping. The game ends if the bird collides with a pipe or goes out of bounds.
+
+Features
+Start Menu: The game begins with a start menu that prompts the player to press the space bar to start.
+
+Gameplay: The bird moves under gravity, and the player can jump by pressing the space bar.
+
+Pipe Generation: Pipes are generated randomly and move across the screen.
+
+Scoring: Points are awarded when the bird successfully passes through a pair of pipes.
+
+Collision Detection: The game ends if the bird hits a pipe or goes off-screen.
+
+Requirements
+Python: Ensure you have Python installed on your system.
+
+Pygame: Install Pygame using pip:
+
+
+pip install pygame
+Bird Image: Replace "bird.jpg" in the code with the path to your bird image file.
+
+Running the Game
+Clone or download the repository.
+
+Install Pygame if not already installed.
+
+Replace "bird.jpg" with your bird image file path.
+
+Run the game using Python:
+
+python flappy_bird.py
