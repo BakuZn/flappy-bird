@@ -22,14 +22,13 @@ Pygame: Install Pygame using pip:
 
 
 pip install pygame
-Bird Image: Replace "bird.jpg" in the code with the path to your bird image file.
 
 Running the Game
 Clone or download the repository.
 
 Install Pygame if not already installed.
 
-Replace "bird.jpg" with your bird image file path.
+
 
 Run the game using Python:
 
